@@ -1,30 +1,42 @@
+a:link {
+   color: orange;
+   text-decoration: none;
+}
+
+a:visited {
+    color: orange;
+    background-color: cyan;
+}
+
+a:active {
+    background-color: hotpink;
+} 
+
 body {
-	background-color: white;
+	height: 100%;
 	font-family: Helvetica;
 	font-weight: bold;
 	text-align: left;
+	position: relative;
+	z-index: 4;
 	}
 
 .state {
-		font-size: 40px;
-		font-size: 3.1vw;
-	  position: relative;
-     -webkit-transition: all .5s ease-in-out;
-	  -moz-transition: all .5s ease-in-out;
-	  -o-transition: all .5s ease-in-out;
-	  -ms-transition: all .5s ease-in-out;
-	  position:relative;
+	font-size: 30px;
+	font-size: 2.7vw;
+	-webkit-transition: all 2s ease-in-out;
+	-moz-transition: all 2s ease-in-out;
+	-o-transition: all 2s ease-in-out;
+	-ms-transition: all 2s ease-in-out;
 
 }
 
 .state:hover{
-	padding: 1%;
-  -webkit-transform: translate(50em,0);
-  -moz-transform: translate(50em,0);
-  -o-transform: translate(50em,0);
-  -ms-transform: translate(50em,0);
+  -webkit-transform: translate(10em,0);
+  -moz-transform: translate(20em,0);
+  -o-transform: translate(20em,0);
+  -ms-transform: translate(20em,0);
 }
-
 
 .top {
 	color: rgb(0,143,219);
@@ -41,132 +53,73 @@ body {
 .start {
 	padding-top: 50px;
 	padding-top: 3.88vw;
-	text-indent: 50px;
 	}
+
 .contributors{
 	padding-top: 50px;
 	padding-top: 3.88vw;
-}
+	}
 
 .one{
-	margin-left: 8%;
-}
+	margin-left: 2%;
+	}
 
 .two{
-	margin-left: 9%;
-}
+	margin-left: 3%;
+	}
 
 .three{
-	margin-left: 10%;
-}
+	margin-left: 4%;
+	}
 
 .four{
-	margin-left: 11%;
-}
+	margin-left: 5%;
+	}
 
 .five{
-	margin-left: 12%;
-}
+	margin-left: 6%;
+	}
 
 .six{
-	margin-left: 13%;
-}
+	margin-left: 7%;
+	}
 
 .seven{
-	margin-left: 14%;
-}
+	margin-left: 8%;
+	}
 
 .eight{
-	margin-left: 15%;
-}
-
-.nine{
-	margin-left: 16%;
-}
-
-.ten{
-	margin-left: 17%;
-}
-
-.eleven{
-	margin-left: 18%;
-}
-
-.twelve{
-	margin-left: 19%;
-}
-
-.thirteen{
-	margin-left: 20%;
-}
-
-.fourteen{
-	margin-left: 21%;
-}
-
-.fifteen{
-	margin-left: 22%;
-}
-
-.sixteen{
-	margin-left: 23%;
-}
-
-.seventeen{
-	margin-left: 24%;
-}
-
-.eighteen{
-	margin-left: 25%;
-}
-
-.nineteen{
-	margin-left: 26%;
-}
-
-.twenty{
-	margin-left: 27%;
-}
-
-.twentyone{
-	margin-left: 28%;
-}
-
-.twentytwo{
-	margin-left: 29%;
-}
-
-.twentythree{
-	margin-left: 30%;
-}
-
-.twentyfour{
-	margin-left: 31%;
-}
-
-.twentyfive{
-	margin-left: 32%;
-}
-
-.twentysix{
-	margin-left: 33%;
-}
-
-.twentyseven{
-	margin-left: 34%;
-}
-
-.twentyeight{
-	margin-left: 35%;
+	margin-left: 9%;
 	}
 
 
+ 
 
 
+.outer-container {
+  position: relative;
+  padding: 10px;
+  height: 100vh;
+}
 
+.flex-container {
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
 
+.column {
+  width: 50%;
+  margin: 5px;
+}
 
-
+img {
+  max-width: 100%;
+  z-index: 1;
+  position: relative;
+}
 
 
 

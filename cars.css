@@ -1,0 +1,23 @@
+.outer-container {
+  position: relative;
+  padding: 10px;
+  height: 100vh;
+}
+
+.flex-container {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 30%;
+  margin: 5px;
+}
+
+img {
+    float: right;
+    margin: 0 0 10px 10px;
+    max-width: 100%;
+}
